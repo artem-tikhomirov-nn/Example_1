@@ -9,4 +9,4 @@ Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine());
 
 int max = a > b ? a : b;
-Console.WriteLine("Максимальное число:  " + max);
+Console.WriteLine("Максимальное число: %d ", a > b ? a : b);
